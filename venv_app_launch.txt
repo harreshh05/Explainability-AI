@@ -1,0 +1,5 @@
+conda create -n hackathon_xai python=3.11 -y
+conda activate hackathon_xai
+pip install streamlit pandas numpy shap matplotlib scikit-learn streamlit-shap
+
+Then cd to where the project is and launch streamlit run ap.py

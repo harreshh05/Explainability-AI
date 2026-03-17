@@ -66,19 +66,16 @@ Evaluation & Bias Analysis
    git clone https://github.com/harreshh05/Explainability-AI.git
    cd Explainability-AI
 
-2. Install dependencies
-   pip install -r requirements.txt
+If you want to run it without changing data, go to 3.
 
-3. Run the Notebook and Import the Data sets
-   Open:
-     proto_v2.ipynb
+2. Retrain the model
 
-4. Execute pipeline
-- Run preprocessing cells
+- open data_analysis_preprocessing.ipynb and run the cells
+- open model_selection.ipynb and run the cells.
 
-- Run model training
+3. Interface
 
-- View evaluation and explainability results
+- follow the venv_app_launch.txt file and launch the application.
 
 ## Outputs
 - Employee attrition prediction (0 = stay, 1 = leave)
@@ -98,16 +95,26 @@ Evaluation & Bias Analysis
 ## 📁 Project Structure
 ├── HRDataset_v14.csv
 
+├── processed_hr_data.csv
+
 ├── README.md
 
-├── proto_v2.ipynb
+├── data_analysis_preprocessing.ipynb
 
-├── requirements.txt
+├── model_selection.ipynb
+
+├── app.py
+
+├── venv_app_launch.txt
 
 ├── technical_documentation.md
 
 ├── model_card.md
 
 ├── data_card.md
+
+├── Architecture Diagram.pdf
+
+├── slides.pptx
 
 

@@ -166,11 +166,12 @@ st.markdown("---")
 # ============================================================
 # 3. TABS
 # ============================================================
-tab1, tab2, tab3, tab4 = st.tabs([
+tab1, tab2, tab3, tab4, tab5 = st.tabs([
     "🌍 Company Overview",
     "🔍 Employee Deep-Dive",
     "✨ Retention Simulator",
-    "⚖️ Fairness Audit"
+    "⚖️ Fairness Audit",
+    "🆕 New Employee Prediction"
 ])
 
 # ============================================================
@@ -469,3 +470,176 @@ with tab4:
     should be reviewed by a human before action is taken. The model is a decision-support 
     tool, not a decision-making tool.
     """)
+
+# ============================================================
+# TAB 5 — NEW EMPLOYEE PREDICTION
+# Manually enter any employee profile and get a risk prediction
+# ============================================================
+with tab5:
+    st.header("🆕 Predict Risk for a New Employee")
+    st.write("Enter an employee's profile manually — useful for onboarding or pre-emptive HR screening.")
+
+    st.markdown("---")
+
+    # ── Section 1: Profile ──────────────────────────────────
+    st.subheader("👤 Employee Profile")
+    p1, p2, p3 = st.columns(3)
+
+    age = p1.number_input(
+        "Age", min_value=18, max_value=70, value=35
+    )
+    salary = p2.number_input(
+        "Annual Salary ($)", min_value=30000, max_value=250000,
+        value=60000, step=1000
+    )
+    tenure = p3.number_input(
+        "Tenure (days in company)", min_value=0, max_value=10000, value=365
+    )
+
+    # ── Section 2: Engagement ───────────────────────────────
+    st.subheader("📊 Engagement & Performance")
+    e1, e2, e3, e4 = st.columns(4)
+
+    satisfaction = e1.slider("Job Satisfaction (1–5)",     1, 5, 3)
+    engagement   = e2.slider("Engagement Score (1–5)",     1, 5, 3)
+    perf_score   = e3.slider("Performance Score (1–4)",    1, 4, 3)
+    projects     = e4.slider("Special Projects Count",     0, 10, 1)
+
+    # ── Section 3: Behaviour ────────────────────────────────
+    st.subheader("📅 Attendance & Review")
+    b1, b2, b3 = st.columns(3)
+
+    absences           = b1.number_input("Absences (last year)",       0, 30, 3)
+    days_late          = b2.number_input("Days Late (last 30 days)",   0, 30, 0)
+    days_since_review  = b3.number_input("Days Since Last Review",     0, 730, 90)
+
+    # ── Section 4: Organisational ───────────────────────────
+    st.subheader("🏢 Organisational Context")
+    o1, o2, o3, o4 = st.columns(4)
+
+    dept_id     = o1.selectbox("Department",          options=sorted(X_train['DeptID'].unique()))
+    position_id = o2.selectbox("Position ID",         options=sorted(X_train['PositionID'].unique()))
+    manager_id  = o3.selectbox("Manager ID",          options=sorted(X_train['ManagerID'].dropna().unique()))
+    diversity   = o4.selectbox("Diversity Job Fair?", options=[0, 1],
+                               format_func=lambda x: "Yes" if x == 1 else "No")
+
+    # ── Recruitment source dummies ───────────────────────────
+    st.subheader("📣 Recruitment Source")
+    rec_cols    = [c for c in X_train.columns if c.startswith('RecruitmentSource_')]
+    rec_options = [c.replace('RecruitmentSource_', '').replace('_', ' ') for c in rec_cols]
+
+    # Also pull the dropped-first category from the raw data so it appears as an option
+    @st.cache_data
+    def get_all_sources():
+        df_raw = pd.read_csv('HRDataset_v14.csv')
+        return sorted(df_raw['RecruitmentSource'].dropna().unique().tolist())
+
+    all_sources    = get_all_sources()
+    missing_source = [s for s in all_sources if s not in rec_options]  # the drop_first category
+    full_options   = missing_source + rec_options  # dropped-first goes first as default
+
+    selected_source = st.selectbox(
+        "How was this employee recruited?",
+        options=full_options
+    )
+
+    st.markdown("---")
+
+    # ── Run prediction ───────────────────────────────────────
+    if st.button("🔮 Predict Attrition Risk", use_container_width=True):
+
+        # Build a row that matches X_train column structure exactly
+        new_row = pd.DataFrame(columns=X_train.columns, data=np.zeros((1, len(X_train.columns))))
+
+        # Fill known fields
+        field_map = {
+            'Age_at_Reference':         age,
+            'Salary':                   salary,
+            'Time_of_Work_Days':        tenure,
+            'EmpSatisfaction':          satisfaction,
+            'EngagementSurvey':         engagement,
+            'PerfScoreID':              perf_score,
+            'SpecialProjectsCount':     projects,
+            'Absences':                 absences,
+            'DaysLateLast30':           days_late,
+            'Time_after_Review_Days':   days_since_review,
+            'DeptID':                   dept_id,
+            'PositionID':               position_id,
+            'ManagerID':                manager_id,
+            'FromDiversityJobFairID':   diversity,
+        }
+        for col, val in field_map.items():
+            if col in new_row.columns:
+                new_row[col] = val
+
+        # One-hot encode recruitment source
+        rec_col = f'RecruitmentSource_{selected_source.replace(" ", "_")}'
+        if rec_col in new_row.columns:
+            new_row[rec_col] = 1
+
+        # Predict
+        new_prob  = model.predict_proba(new_row)[0][1]
+        new_pred  = model.predict(new_row)[0]
+
+        # ── Results ─────────────────────────────────────────
+        st.markdown("---")
+        st.subheader("📋 Prediction Results")
+        st.markdown(risk_badge(new_prob), unsafe_allow_html=True)
+        st.markdown("")
+
+        r1, r2 = st.columns(2)
+        r1.metric("Attrition Probability", f"{new_prob:.1%}")
+        r2.metric("Model Decision",        "⚠️ At Risk" if new_pred == 1 else "✅ Likely to Stay")
+
+        # ── SHAP explanation ────────────────────────────────
+        st.subheader("🔍 Why? — Key Factors")
+
+        new_sv = explainer.shap_values(new_row)
+        if isinstance(new_sv, list):
+            new_sv_leave = new_sv[1][0]
+        else:
+            new_sv_leave = new_sv[0, :, 1]
+
+        contrib_new = pd.DataFrame({
+            'Feature': [label(c) for c in X_train.columns],
+            'SHAP':    new_sv_leave
+        }).sort_values('SHAP')
+
+        # Show top 5 risk + top 3 protective
+        top_risk  = contrib_new.tail(5)
+        top_prot  = contrib_new.head(3)
+        plot_data = pd.concat([top_prot, top_risk])
+
+        bar_colors = ['#e74c3c' if v > 0 else '#2ecc71' for v in plot_data['SHAP']]
+
+        fig5, ax5 = plt.subplots(figsize=(9, 5))
+        ax5.barh(plot_data['Feature'], plot_data['SHAP'], color=bar_colors)
+        ax5.axvline(0, color='black', linewidth=0.8)
+        ax5.set_xlabel("SHAP Value")
+        ax5.set_title("Factors Driving This Prediction", fontweight='bold')
+        ax5.spines[['top', 'right']].set_visible(False)
+
+        red_patch   = mpatches.Patch(color='#e74c3c', label='Pushes toward leaving')
+        green_patch = mpatches.Patch(color='#2ecc71', label='Pushes toward staying')
+        ax5.legend(handles=[red_patch, green_patch], fontsize=9)
+
+        plt.tight_layout()
+        st.pyplot(fig5)
+        plt.close()
+
+        # ── HR Action Card ───────────────────────────────────
+        if new_pred == 1 or new_prob >= 0.3:
+            st.subheader("💡 Recommended HR Actions")
+
+            top_risk_features = pd.Series(
+                new_sv_leave, index=X_train.columns
+            ).nlargest(3).index.tolist()
+
+            for feat in top_risk_features:
+                st.markdown(f"- {get_action(feat)}")
+
+        st.markdown("---")
+        st.caption(
+            "⚠️ This prediction is a decision-support tool, not a final decision. "
+            "All HR actions must be reviewed by a qualified human professional."
+        )

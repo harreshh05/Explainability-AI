@@ -96,6 +96,8 @@ def load_and_split():
     df_processed = pd.read_csv('processed_hr_data.csv')
     df_raw       = pd.read_csv('HRDataset_v14.csv')
 
+    df_processed = df_processed.drop(columns=['Unnamed: 0'], errors='ignore')
+
     y = df_processed['Termd']
     X = df_processed.drop(columns=[c for c in ['Termd'] + ETHICS_COLS if c in df_processed.columns])
 

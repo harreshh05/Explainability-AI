@@ -115,6 +115,8 @@ If you want to run it without changing data, go to 3.
 
 ├── Architecture Diagram.pdf
 
+├── video_demo_link.txt
+
 ├── slides.pptx
 
 

@@ -1,0 +1,310 @@
+,Employee_Name,EmpID,MarriedID,MaritalStatusID,GenderID,DeptID,PerfScoreID,FromDiversityJobFairID,Salary,Termd,PositionID,Sex,MaritalDesc,CitizenDesc,HispanicLatino,RaceDesc,ManagerID,EngagementSurvey,EmpSatisfaction,SpecialProjectsCount,DaysLateLast30,Absences,Time_of_Work_Days,Time_after_Review_Days,Age_at_Reference,RecruitmentSourceID
+0,"Adinolfi, Wilson  K",10026,0,0,1,5,4,0,62506,0,19,M ,Single,US Citizen,No,White,22.0,4.6,5,0,0,1,2795,42,35.0,1
+1,"Ait Sidi, Karthikeyan   ",10084,1,1,1,3,3,0,104437,1,27,M ,Married,US Citizen,No,White,4.0,4.96,3,6,0,17,444,113,41.0,2
+2,"Akinkuolie, Sarah",10196,1,1,0,5,3,0,64955,1,20,F,Married,US Citizen,No,White,20.0,3.02,3,0,0,3,447,132,24.0,1
+3,"Alagbe,Trina",10088,1,1,0,5,3,0,64991,0,19,F,Married,US Citizen,No,White,16.0,4.84,5,0,0,15,4070,56,30.0,2
+4,"Anderson, Carol ",10069,0,2,0,5,3,0,50825,1,19,F,Divorced,US Citizen,No,White,39.0,5.0,4,0,0,2,1884,218,26.0,3
+5,"Anderson, Linda  ",10002,0,0,0,5,4,0,57568,0,19,F,Single,US Citizen,No,White,11.0,5.0,5,0,0,15,2607,52,41.0,1
+6,"Andreola, Colby",10194,0,0,0,4,3,0,95660,0,24,F,Single,US Citizen,No,White,10.0,3.04,3,4,0,19,1571,57,39.0,1
+7,"Athwal, Sam",10062,0,4,1,5,3,0,59365,0,19,M ,Widowed,US Citizen,No,White,19.0,5.0,4,0,0,19,1977,3,36.0,4
+8,"Bachiochi, Linda",10114,0,0,0,5,3,1,47837,0,19,F,Single,US Citizen,No,Black or African American,12.0,4.46,3,0,0,4,3524,34,49.0,5
+9,"Bacong, Alejandro ",10250,0,2,1,3,3,0,50178,0,14,M ,Divorced,US Citizen,No,White,7.0,5.0,5,6,0,16,1515,10,31.0,2
+10,"Baczenski, Rachael  ",10252,1,1,0,5,3,1,54670,1,19,F,Married,US Citizen,Yes,Black or African American,14.0,4.2,4,0,0,12,2194,348,43.0,5
+11,"Barbara, Thomas",10242,1,1,1,5,3,1,47211,1,19,M ,Married,US Citizen,Yes,Black or African American,20.0,4.2,3,0,0,15,1631,136,42.0,5
+12,"Barbossa, Hector",10012,0,2,1,3,4,1,92328,0,9,M ,Divorced,US Citizen,No,Black or African American,4.0,4.28,4,5,0,9,1571,3,30.0,5
+13,"Barone, Francesco  A",10265,0,0,1,5,3,0,58709,0,19,M ,Single,US Citizen,No,Two or more races,18.0,4.6,4,0,0,7,2565,14,35.0,3
+14,"Barton, Nader",10066,0,2,1,5,3,0,52505,1,19,M ,Divorced,US Citizen,No,White,22.0,5.0,5,0,0,1,1655,35,39.0,6
+15,"Bates, Norman",10061,0,0,1,5,3,0,57834,1,19,M ,Single,US Citizen,No,White,18.0,5.0,4,0,0,20,2356,121,35.0,3
+16,"Beak, Kimberly  ",10023,1,1,0,5,4,0,70131,0,20,F,Married,US Citizen,No,White,18.0,4.4,3,0,0,16,952,45,52.0,4
+17,"Beatrice, Courtney ",10055,0,0,0,5,3,0,59026,0,19,F,Single,Eligible NonCitizen,No,White,16.0,5.0,5,0,0,12,2887,45,48.0,3
+18,"Becker, Renee",10245,0,0,0,3,3,0,110000,1,8,F,Single,US Citizen,Yes,White,4.0,4.5,4,5,0,8,432,240,29.0,3
+19,"Becker, Scott",10277,0,0,1,5,3,0,53250,0,19,M ,Single,US Citizen,No,Asian,39.0,4.2,4,0,0,13,2061,48,39.0,1
+20,"Bernstein, Sean",10046,0,0,1,5,3,0,51044,0,19,M ,Single,US Citizen,Yes,White,11.0,5.0,3,0,0,13,2523,45,48.0,3
+21,"Biden, Lowan  M",10226,0,2,0,5,3,0,64919,0,19,F,Divorced,US Citizen,No,Asian,19.0,4.2,3,0,0,2,2019,49,60.0,2
+22,"Billis, Helen",10003,1,1,0,5,4,0,62910,0,19,F,Married,US Citizen,No,White,12.0,5.0,3,0,0,19,1697,1,29.0,2
+23,"Blount, Dianna",10294,0,0,0,5,2,0,66441,0,20,F,Single,US Citizen,No,White,22.0,2.0,3,0,2,3,2887,1,28.0,7
+24,"Bondwell, Betsy",10267,0,0,0,5,3,0,57815,1,20,F,Single,US Citizen,No,White,16.0,4.8,5,0,0,5,1180,31,47.0,3
+25,"Booth, Frank",10199,0,0,1,3,3,0,103613,1,30,M ,Single,US Citizen,No,Black or African American,4.0,3.5,5,7,0,2,732,40,51.0,1
+26,"Boutwell, Bonalyn",10081,1,1,0,1,3,1,106367,0,26,F,Married,US Citizen,No,Black or African American,1.0,5.0,4,3,0,4,1473,10,31.0,5
+27,"Bozzi, Charles",10175,0,0,1,5,3,0,74312,1,18,M ,Single,US Citizen,No,Asian,2.0,3.39,3,0,0,14,311,168,44.0,2
+28,"Brill, Donna",10177,1,1,0,5,3,0,53492,1,19,F,Married,US Citizen,No,White,14.0,3.35,4,0,0,6,439,103,22.0,3
+29,"Brown, Mia",10238,1,1,0,1,3,1,63000,0,1,F,Married,US Citizen,No,Black or African American,1.0,4.5,2,6,0,14,3776,44,31.0,5
+30,"Buccheri, Joseph  ",10184,0,0,1,5,3,0,65288,0,20,M ,Single,US Citizen,No,White,39.0,3.19,3,0,0,9,1613,27,35.0,3
+31,"Bugali, Josephine ",10203,0,3,0,5,3,1,64375,0,19,F,Separated,US Citizen,No,Black or African American,20.0,3.5,5,0,0,17,1935,38,49.0,5
+32,"Bunbury, Jessica",10188,1,1,0,6,3,0,74326,1,3,F,Married,Eligible NonCitizen,No,Black or African American,17.0,3.14,5,0,1,19,1083,538,50.0,3
+33,"Burke, Joelle",10107,0,0,0,5,3,0,63763,0,20,F,Single,US Citizen,No,Black or African American,11.0,4.51,4,0,0,3,2551,7,38.0,4
+34,"Burkett, Benjamin ",10181,1,1,1,5,3,0,62162,0,20,M ,Married,US Citizen,No,White,19.0,3.25,5,0,0,15,2887,45,41.0,2
+35,"Cady, Max ",10150,0,0,1,4,3,0,77692,0,25,M ,Single,US Citizen,No,White,5.0,3.84,3,5,0,4,2754,38,52.0,3
+36,"Candie, Calvin",10001,0,0,1,5,4,0,72640,0,18,M ,Single,US Citizen,No,White,2.0,5.0,3,0,0,14,1127,6,35.0,2
+37,"Carabbio, Judith",10085,0,0,0,4,3,0,93396,0,24,F,Single,US Citizen,No,White,10.0,4.96,4,6,0,3,1935,29,31.0,2
+38,"Carey, Michael  ",10115,0,0,1,5,3,0,52846,0,19,M ,Single,US Citizen,No,Black or African American,18.0,4.43,3,0,0,14,1795,27,36.0,1
+39,"Carr, Claudia  N",10082,0,0,0,3,3,0,100031,0,27,F,Single,US Citizen,No,Black or African American,4.0,5.0,5,6,0,7,973,10,32.0,1
+40,"Carter, Michelle ",10040,0,0,0,6,3,0,71860,0,3,F,Single,US Citizen,No,White,17.0,5.0,5,0,0,7,1655,38,55.0,2
+41,"Chace, Beatrice ",10067,0,0,0,5,3,0,61656,0,19,F,Single,US Citizen,No,White,22.0,5.0,4,0,0,11,1613,16,68.0,3
+42,"Champaigne, Brian",10108,1,1,1,3,3,0,110929,0,5,M ,Married,US Citizen,No,White,5.0,4.5,5,7,0,8,905,44,47.0,2
+43,"Chan, Lin",10210,0,0,0,5,3,0,54237,0,19,F,Single,US Citizen,No,White,16.0,3.3,4,0,0,11,1753,9,40.0,2
+44,"Chang, Donovan  E",10154,0,0,1,5,3,0,60380,0,19,M ,Single,US Citizen,No,White,39.0,3.8,5,0,0,4,2061,45,35.0,1
+45,"Chigurh, Anton",10200,0,0,1,6,3,0,66808,0,3,M ,Single,Eligible NonCitizen,No,Black or African American,21.0,3.0,5,0,0,17,2481,40,48.0,4
+46,"Chivukula, Enola",10240,0,0,0,5,3,0,64786,1,19,F,Single,US Citizen,No,White,11.0,4.3,4,0,0,3,1602,250,32.0,2
+47,"Cierpiszewski, Caroline  ",10168,0,0,0,5,3,0,64816,0,19,F,Single,Non-Citizen,No,Black or African American,19.0,3.58,5,0,0,3,2705,29,30.0,2
+48,"Clayton, Rick",10220,0,0,1,3,3,0,68678,0,14,M ,Single,US Citizen,No,White,6.0,4.7,3,6,0,2,2367,1,33.0,2
+49,"Cloninger, Jennifer",10275,1,1,0,5,3,0,64066,1,20,F,Married,US Citizen,No,White,12.0,4.2,5,0,0,9,602,249,31.0,3
+50,"Close, Phil",10269,1,1,1,5,3,0,59369,1,20,M ,Married,US Citizen,No,White,14.0,4.2,4,0,0,6,392,145,32.0,2
+51,"Clukey, Elijian",10029,1,1,1,5,4,0,50373,0,19,M ,Married,US Citizen,No,White,12.0,4.1,4,0,0,5,967,0,38.0,4
+52,"Cockel, James",10261,0,0,1,5,3,0,63108,0,19,M ,Single,US Citizen,No,White,14.0,4.4,5,0,0,3,2061,45,41.0,4
+53,"Cole, Spencer",10292,0,0,1,5,2,0,59144,1,19,M ,Single,US Citizen,No,Black or African American,20.0,2.0,3,0,5,16,1901,145,37.0,1
+54,"Corleone, Michael",10282,0,2,1,5,2,0,68051,0,18,M ,Divorced,US Citizen,No,White,2.0,4.13,2,0,3,3,3145,45,43.0,7
+55,"Corleone, Vito",10019,0,0,1,5,4,0,170500,0,10,M ,Single,US Citizen,No,Black or African American,2.0,3.7,5,0,0,15,3706,24,35.0,2
+56,"Cornett, Lisa ",10094,1,1,0,5,3,0,63381,0,19,F,Married,US Citizen,Yes,White,18.0,4.73,5,0,0,6,1515,14,41.0,2
+57,"Costello, Frank",10193,1,1,1,3,3,0,83552,0,9,M ,Married,US Citizen,No,White,4.0,3.04,3,6,0,2,1431,37,32.0,2
+58,"Crimmings,   Jean",10132,0,0,0,5,3,0,56149,0,19,F,Single,US Citizen,No,White,22.0,4.12,5,0,0,15,967,31,31.0,1
+59,"Cross, Noah",10083,0,0,1,3,3,0,92329,0,28,M ,Single,US Citizen,No,White,7.0,5.0,3,4,0,5,1571,57,53.0,4
+60,"Daneault, Lynn",10099,0,0,0,6,3,0,65729,0,21,F,Single,US Citizen,No,White,15.0,4.62,4,0,0,8,1760,35,28.0,2
+61,"Daniele, Ann  ",10212,1,1,0,3,3,0,85028,0,28,F,Married,US Citizen,No,White,7.0,3.1,5,8,0,19,1571,16,67.0,1
+62,"Darson, Jene'ya ",10056,1,1,0,5,3,0,57583,0,19,F,Married,US Citizen,No,White,16.0,5.0,3,0,0,1,2432,3,40.0,2
+63,"Davis, Daniel",10143,0,0,1,5,3,0,56294,0,20,M ,Single,Eligible NonCitizen,No,Two or more races,20.0,3.96,4,0,0,6,2670,1,39.0,1
+65,"DeGweck,  James",10070,1,1,1,5,3,0,55722,1,19,M ,Married,US Citizen,No,White,39.0,5.0,4,0,0,14,1850,67,38.0,2
+66,"Del Bosque, Keyla",10155,0,0,0,4,3,0,101199,0,24,F,Single,US Citizen,No,Black or African American,10.0,3.79,5,5,0,8,2607,34,39.0,7
+67,"Delarge, Alex",10306,0,0,1,6,1,0,61568,0,3,M ,Single,US Citizen,No,Two or more races,17.0,1.93,3,0,6,5,1613,29,43.0,2
+68,"Demita, Carla",10100,0,3,0,5,3,0,58275,1,20,F,Separated,US Citizen,No,Black or African American,18.0,4.62,5,0,0,1,1675,182,64.0,3
+69,"Desimone, Carl ",10310,1,1,1,5,1,0,53189,0,19,M ,Married,US Citizen,No,White,11.0,1.12,2,0,4,9,1697,28,51.0,2
+70,"DeVito, Tommy",10197,0,0,1,3,3,0,96820,0,4,M ,Single,US Citizen,No,White,13.0,3.01,5,7,0,15,743,36,35.0,2
+71,"Dickinson, Geoff ",10276,0,0,1,5,3,0,51259,0,19,M ,Single,US Citizen,No,White,19.0,4.3,4,0,0,1,1753,9,36.0,2
+72,"Dietrich, Jenna  ",10304,0,0,0,6,1,0,59231,0,3,F,Single,US Citizen,Yes,White,17.0,2.3,1,0,2,17,2565,30,31.0,8
+73,"DiNocco, Lily ",10284,1,1,0,5,2,0,61584,0,19,F,Married,US Citizen,No,Black or African American,12.0,3.88,4,0,0,6,2243,41,40.0,2
+74,"Dobrin, Denisa  S",10207,0,0,0,5,3,0,46335,0,19,F,Single,US Citizen,Yes,White,14.0,3.4,5,0,0,15,2523,9,32.0,7
+75,"Dolan, Linda",10133,1,1,0,3,3,0,70621,0,14,F,Married,US Citizen,No,White,7.0,4.11,4,6,0,16,1515,3,30.0,4
+76,"Dougall, Eric",10028,0,0,1,3,4,0,138888,0,13,M ,Single,US Citizen,No,Black or African American,5.0,4.3,5,5,0,4,1880,55,48.0,2
+77,"Driver, Elle",10006,0,0,0,6,4,0,74241,0,3,F,Single,US Citizen,No,White,21.0,4.77,5,0,0,14,2971,32,30.0,2
+78,"Dunn, Amy  ",10105,0,0,0,5,3,0,75188,0,18,F,Single,US Citizen,No,White,2.0,4.52,4,0,0,4,1624,44,45.0,3
+79,"Dunne, Amy",10211,1,1,0,5,3,0,62514,0,19,F,Married,US Citizen,No,White,19.0,2.9,3,0,0,6,3230,38,45.0,3
+80,"Eaton, Marianne",10064,1,1,0,5,3,0,60070,1,19,F,Married,US Citizen,No,White,20.0,5.0,3,0,0,7,2255,58,25.0,3
+81,"Engdahl, Jean",10247,0,0,1,5,3,0,48888,0,19,M ,Single,US Citizen,No,White,18.0,4.7,5,0,0,8,1571,15,44.0,1
+82,"England, Rex",10235,1,1,1,5,3,0,54285,0,19,M ,Married,US Citizen,No,White,18.0,4.2,3,0,0,3,1795,48,40.0,4
+83,"Erilus, Angela",10299,0,3,0,5,1,0,56847,0,20,F,Separated,US Citizen,No,White,22.0,3.0,1,0,2,5,1697,3,29.0,2
+84,"Estremera, Miguel",10280,0,0,1,5,2,0,60340,1,19,M ,Single,US Citizen,No,White,22.0,5.0,4,0,5,16,2369,168,35.0,3
+85,"Evensen, April",10296,0,0,0,5,2,0,59124,1,19,F,Single,US Citizen,No,White,16.0,2.3,3,0,5,19,1469,406,28.0,3
+86,"Exantus, Susan",10290,1,1,0,4,2,0,99280,1,24,F,Married,US Citizen,No,Black or African American,10.0,2.1,5,4,4,19,765,299,26.0,2
+87,"Faller, Megan ",10263,1,1,0,5,3,0,71776,0,20,F,Married,US Citizen,No,Black or African American,16.0,4.4,5,0,0,17,1697,6,40.0,1
+88,"Fancett, Nicole",10136,0,0,0,5,3,0,65902,0,20,F,Single,US Citizen,No,Black or African American,39.0,4.0,4,0,0,7,1837,52,31.0,1
+89,"Ferguson, Susan",10189,1,1,0,5,3,0,57748,1,19,F,Married,US Citizen,No,White,39.0,3.13,3,0,0,16,1653,103,61.0,3
+90,"Fernandes, Nilson  ",10308,1,1,1,5,1,0,64057,0,19,M ,Married,US Citizen,No,White,11.0,1.56,5,0,6,15,1389,56,29.0,2
+91,"Fett, Boba",10309,0,0,1,3,1,0,53366,0,15,M ,Single,US Citizen,No,White,7.0,1.2,3,6,3,2,1431,24,31.0,1
+92,"Fidelia,  Libby",10049,1,1,0,5,3,0,58530,0,19,F,Married,US Citizen,No,White,12.0,5.0,5,0,0,19,2607,30,37.0,3
+93,"Fitzpatrick, Michael  J",10093,0,0,1,5,3,0,72609,1,20,M ,Single,US Citizen,Yes,White,11.0,4.76,5,0,0,20,770,80,31.0,3
+94,"Foreman, Tanya",10163,1,1,0,5,3,0,55965,1,20,F,Married,US Citizen,No,White,19.0,3.66,3,0,0,6,646,368,29.0,3
+95,"Forrest, Alex",10305,1,1,1,6,3,0,70187,1,3,M ,Married,US Citizen,No,White,21.0,2.0,5,0,4,7,1420,-162,43.0,4
+96,"Foss, Jason",10015,0,0,1,3,4,0,178000,0,12,M ,Single,US Citizen,No,Black or African American,5.0,5.0,5,5,0,15,2876,52,38.0,2
+97,"Foster-Baker, Amy",10080,1,1,0,1,3,0,99351,0,26,F,Married,US Citizen,no,White,9.0,5.0,3,2,0,3,3706,20,39.0,9
+98,"Fraval, Maruk ",10258,0,0,1,6,3,0,67251,0,3,M ,Single,US Citizen,No,Black or African American,21.0,4.3,3,0,2,7,2732,32,55.0,7
+99,"Galia, Lisa",10273,0,0,0,3,3,0,65707,0,14,F,Single,US Citizen,No,White,6.0,4.7,4,5,0,1,3225,27,50.0,1
+100,"Garcia, Raul",10111,0,0,1,5,3,0,52249,0,19,M ,Single,US Citizen,Yes,White,14.0,4.5,3,0,0,5,1431,10,33.0,4
+101,"Gaul, Barbara",10257,0,0,0,5,3,0,53171,0,19,F,Single,US Citizen,Yes,Black or African American,18.0,4.2,4,0,0,12,2845,2,35.0,1
+102,"Gentry, Mildred",10159,1,1,0,5,3,0,51337,0,19,F,Married,US Citizen,No,Black or African American,22.0,3.73,3,0,0,19,1431,43,28.0,1
+103,"Gerke, Melisa",10122,0,2,0,5,3,1,51505,1,19,F,Divorced,US Citizen,No,Black or African American,16.0,4.24,4,0,0,2,1835,200,46.0,5
+104,"Gill, Whitney  ",10142,0,4,0,6,3,0,59370,1,3,F,Widowed,US Citizen,No,Black or African American,17.0,3.97,4,0,0,7,425,598,44.0,7
+105,"Gilles, Alex",10283,1,1,1,5,2,1,54933,1,19,M ,Married,US Citizen,No,Black or African American,39.0,3.97,4,0,3,15,1179,156,40.0,5
+106,"Girifalco, Evelyn",10018,0,0,0,5,4,0,57815,0,19,F,Single,US Citizen,Yes,Two or more races,11.0,3.9,4,0,0,3,1613,21,38.0,2
+107,"Givens, Myriam",10255,0,0,0,6,3,0,61555,0,3,F,Single,US Citizen,No,White,21.0,4.5,5,0,0,20,1473,34,29.0,2
+108,"Goble, Taisha",10246,0,0,0,3,3,0,114800,1,8,F,Single,US Citizen,No,White,4.0,4.6,4,4,0,10,27,54,43.0,2
+109,"Goeth, Amon",10228,1,1,1,3,3,0,74679,0,14,M ,Married,US Citizen,Yes,White,7.0,4.3,5,7,0,20,1431,49,29.0,1
+110,"Gold, Shenice  ",10243,0,0,0,5,3,0,53018,0,19,F,Single,US Citizen,Yes,White,19.0,4.3,5,0,0,7,1935,10,26.0,2
+111,"Gonzalez, Cayo",10031,0,2,1,5,4,1,59892,0,19,M ,Divorced,US Citizen,No,Black or African American,12.0,4.5,4,0,0,1,2789,10,49.0,5
+112,"Gonzalez, Juan",10300,1,1,1,5,1,1,68898,1,20,M ,Married,US Citizen,No,Black or African American,12.0,3.0,3,0,3,10,399,85,46.0,5
+113,"Gonzalez, Maria",10101,0,3,0,3,3,0,61242,0,14,F,Separated,US Citizen,Yes,White,7.0,4.61,4,5,0,11,1515,31,37.0,4
+114,"Good, Susan",10237,1,1,0,5,3,0,66825,0,20,F,Married,US Citizen,No,White,14.0,4.6,3,0,0,20,1753,21,32.0,1
+115,"Gordon, David",10051,1,1,1,5,3,0,48285,0,19,M ,Married,US Citizen,No,White,14.0,5.0,3,0,0,2,2432,45,39.0,1
+116,"Gosciminski, Phylicia  ",10218,0,3,0,5,3,0,66149,0,20,F,Separated,US Citizen,No,American Indian or Alaska Native,20.0,4.4,5,0,0,1,1977,7,35.0,3
+117,"Goyal, Roxana",10256,1,1,0,5,3,0,49256,0,19,F,Married,US Citizen,No,Asian,20.0,4.1,5,0,0,3,2019,13,44.0,1
+118,"Gray, Elijiah  ",10098,0,2,1,5,3,0,62957,0,18,M ,Divorced,US Citizen,No,White,2.0,4.63,3,0,0,2,1367,55,37.0,4
+119,"Gross, Paula",10059,0,2,0,5,3,0,63813,1,19,F,Divorced,US Citizen,No,White,18.0,5.0,5,0,0,17,1055,222,30.0,7
+120,"Gruber, Hans",10234,1,1,1,3,3,0,99020,0,4,M ,Married,US Citizen,No,Black or African American,13.0,4.2,5,5,0,8,679,31,29.0,2
+121,"Guilianno, Mike",10109,0,0,1,6,3,0,71707,1,3,M ,Single,US Citizen,No,Two or more races,17.0,4.5,5,0,0,20,968,637,45.0,1
+122,"Handschiegl, Joanne",10125,1,1,0,5,3,0,54828,0,19,F,Married,US Citizen,No,White,22.0,4.2,4,0,0,13,2649,6,41.0,3
+123,"Hankard, Earnest",10074,0,0,1,5,3,0,64246,0,20,M ,Single,US Citizen,Yes,White,18.0,5.0,3,0,0,20,1935,51,30.0,1
+124,"Harrington, Christie ",10097,0,0,0,5,3,0,52177,1,19,F,Single,US Citizen,No,White,39.0,4.64,4,0,0,8,1436,227,63.0,7
+125,"Harrison, Kara",10007,1,1,0,5,4,0,62065,0,19,F,Married,US Citizen,No,White,11.0,4.76,4,0,0,5,1753,13,44.0,7
+126,"Heitzman, Anthony",10129,0,0,1,5,3,0,46998,0,19,M ,Single,US Citizen,No,White,19.0,4.17,4,0,0,1,2390,17,35.0,3
+127,"Hendrickson, Trina",10075,0,0,0,5,3,0,68099,1,20,F,Single,US Citizen,No,White,18.0,5.0,3,0,0,15,890,139,40.0,7
+128,"Hitchcock, Alfred",10167,1,1,1,6,3,0,70545,0,3,M ,Married,US Citizen,No,American Indian or Alaska Native,17.0,3.6,5,0,0,9,1655,29,30.0,2
+129,"Homberger, Adrienne  J",10195,1,1,0,5,3,0,63478,1,20,F,Married,Non-Citizen,No,White,22.0,3.03,5,0,0,16,236,33,28.0,2
+130,"Horton, Jayne",10112,0,0,0,3,3,0,97999,0,8,F,Single,US Citizen,No,White,4.0,4.48,5,6,0,4,1431,56,35.0,2
+131,"Houlihan, Debra",10272,1,1,0,6,3,0,180000,0,11,F,Married,US Citizen,No,White,2.0,4.5,4,0,0,19,1760,38,52.0,1
+132,"Howard, Estelle",10182,1,1,0,1,3,0,49920,1,2,F,Married,US Citizen,No,Black or African American,1.0,3.24,3,4,0,6,58,0,29.0,2
+133,"Hudson, Jane",10248,0,0,0,5,3,0,55425,0,19,F,Single,US Citizen,No,White,19.0,4.8,4,0,0,4,2565,52,32.0,1
+134,"Hunts, Julissa",10201,0,0,0,5,3,0,69340,0,20,F,Single,US Citizen,No,White,16.0,3.0,5,0,0,4,997,41,34.0,1
+135,"Hutter, Rosalie",10214,0,3,0,5,3,0,64995,0,20,F,Separated,US Citizen,No,White,39.0,4.5,3,0,0,6,1364,14,26.0,2
+136,"Huynh, Ming",10160,0,2,0,5,3,0,68182,1,20,F,Divorced,US Citizen,No,White,11.0,3.72,3,0,0,18,770,59,36.0,3
+137,"Immediato, Walter",10289,1,1,1,5,2,0,83082,1,18,M ,Married,US Citizen,No,Asian,2.0,2.34,2,0,3,4,581,165,35.0,2
+138,"Ivey, Rose ",10139,0,0,0,5,3,0,51908,0,19,F,Single,US Citizen,No,White,12.0,3.99,3,0,0,14,2019,45,28.0,2
+139,"Jackson, Maryellen",10227,0,0,0,5,3,0,61242,0,19,F,Single,US Citizen,No,Black or African American,14.0,4.1,3,0,0,7,2306,42,46.0,1
+140,"Jacobi, Hannah  ",10236,0,2,0,5,3,0,45069,0,19,F,Divorced,US Citizen,No,White,20.0,4.3,5,0,0,7,1977,6,52.0,4
+141,"Jeannite, Tayana",10009,0,2,0,5,4,0,60724,0,20,F,Divorced,US Citizen,No,American Indian or Alaska Native,19.0,4.6,4,0,0,11,2795,3,32.0,1
+142,"Jhaveri, Sneha  ",10060,0,3,0,5,3,0,60436,0,19,F,Separated,US Citizen,No,White,18.0,5.0,5,0,0,9,1879,38,54.0,1
+143,"Johnson, George",10034,1,1,1,5,4,0,46837,1,19,M ,Married,US Citizen,No,White,22.0,4.7,4,0,0,9,2365,74,58.0,7
+144,"Johnson, Noelle ",10156,1,1,0,3,3,0,105700,0,8,F,Married,US Citizen,No,Asian,4.0,3.75,3,5,0,2,1515,17,32.0,2
+145,"Johnston, Yen",10036,0,0,0,5,4,0,63322,0,20,F,Single,US Citizen,No,White,12.0,4.3,3,0,0,1,1697,48,49.0,1
+146,"Jung, Judy  ",10138,1,1,0,5,3,0,61154,1,19,F,Married,US Citizen,No,Black or African American,16.0,4.0,4,0,0,4,1908,58,29.0,7
+147,"Kampew, Donysha",10244,0,0,0,6,3,0,68999,1,21,F,Single,US Citizen,No,White,15.0,4.5,5,0,0,2,899,390,24.0,3
+148,"Keatts, Kramer ",10192,0,0,1,5,3,0,50482,0,19,M ,Single,US Citizen,No,White,22.0,3.07,4,0,0,10,1977,36,43.0,2
+149,"Khemmich, Bartholemew",10231,0,0,1,6,3,0,65310,0,3,M ,Single,US Citizen,No,White,21.0,4.3,5,0,0,13,2019,37,39.0,2
+150,"King, Janet",10089,1,1,0,2,3,0,250000,0,16,F,Married,US Citizen,Yes,White,9.0,4.83,3,0,0,10,2432,42,64.0,2
+151,"Kinsella, Kathleen  ",10166,1,1,0,5,3,0,54005,1,19,F,Married,US Citizen,No,White,39.0,3.6,5,0,0,16,1347,95,41.0,3
+152,"Kirill, Alexandra  ",10170,1,1,0,5,3,0,45433,1,19,F,Married,US Citizen,No,White,11.0,3.49,4,0,0,6,836,344,43.0,3
+153,"Knapp, Bradley  J",10208,0,0,1,5,3,0,46654,0,19,M ,Single,US Citizen,No,Black or African American,19.0,3.1,3,0,0,3,1837,22,41.0,1
+154,"Kretschmer, John",10176,1,1,1,5,3,0,63973,0,19,M ,Married,US Citizen,No,Asian,12.0,3.38,3,0,0,17,2971,38,39.0,2
+155,"Kreuger, Freddy",10165,0,0,1,6,3,1,71339,0,3,M ,Single,US Citizen,Yes,Black or African American,17.0,3.65,5,0,0,20,2915,42,50.0,5
+156,"Lajiri,  Jyoti",10113,1,1,1,3,3,0,93206,0,28,M ,Married,US Citizen,No,White,7.0,4.46,5,6,0,7,1571,52,32.0,4
+157,"Landa, Hans",10092,1,1,1,5,3,0,82758,1,18,M ,Married,US Citizen,No,White,2.0,4.78,4,0,0,9,1797,300,43.0,4
+158,"Langford, Lindsey",10106,0,2,0,5,3,0,66074,1,20,F,Divorced,US Citizen,No,Asian,14.0,4.52,3,0,0,20,448,39,34.0,2
+159,"Langton, Enrico",10052,1,1,1,5,3,0,46120,0,19,M ,Married,US Citizen,No,White,14.0,5.0,5,0,0,13,2425,24,32.0,1
+160,"LaRotonda, William  ",10038,0,2,1,1,3,0,64520,0,1,M ,Divorced,US Citizen,No,Black or African American,1.0,5.0,4,4,0,3,1879,42,34.0,8
+161,"Latif, Mohammed",10249,1,1,1,5,3,0,61962,1,20,M ,Married,US Citizen,No,White,20.0,4.9,3,0,0,20,378,54,28.0,3
+162,"Le, Binh",10232,0,0,0,3,3,0,81584,0,22,F,Single,US Citizen,No,Asian,13.0,4.1,5,7,0,2,879,51,31.0,2
+163,"Leach, Dallas",10087,0,0,0,5,3,0,63676,1,19,F,Single,US Citizen,No,Asian,20.0,4.88,3,0,0,17,2519,413,39.0,7
+164,"LeBlanc, Brandon  R",10134,1,1,1,1,3,0,93046,0,23,M ,Married,US Citizen,No,White,2.0,4.1,4,0,0,20,1150,31,34.0,7
+165,"Lecter, Hannibal",10251,1,1,1,5,3,0,64738,0,19,M ,Married,US Citizen,No,Asian,16.0,4.1,3,0,0,10,2481,6,36.0,3
+166,"Leruth, Giovanni",10103,0,3,1,6,3,0,70468,0,3,M ,Separated,US Citizen,No,Black or African American,17.0,4.53,3,0,0,16,2495,30,30.0,8
+167,"Liebig, Ketsia",10017,1,1,0,5,4,0,77915,0,18,F,Married,US Citizen,No,White,2.0,4.1,3,0,0,11,1977,38,37.0,8
+168,"Linares, Marilyn ",10186,1,1,0,5,3,0,52624,1,19,F,Married,US Citizen,No,White,22.0,3.18,4,0,0,16,2640,208,37.0,2
+169,"Linden, Mathew",10137,1,1,1,5,3,0,63450,0,20,M ,Married,US Citizen,No,White,18.0,4.0,3,0,0,7,2061,10,39.0,1
+170,"Lindsay, Leonara ",10008,0,0,0,3,4,1,51777,0,14,F,Single,US Citizen,Yes,Black or African American,6.0,4.64,4,5,0,14,2960,34,30.0,5
+171,"Lundy, Susan",10096,0,4,0,5,3,0,67237,1,20,F,Widowed,US Citizen,No,White,22.0,4.65,4,0,0,15,1165,97,39.0,1
+172,"Lunquist, Lisa",10035,0,0,0,5,4,0,73330,0,20,F,Single,US Citizen,No,Black or African American,16.0,4.2,4,0,0,19,2019,16,36.0,2
+173,"Lydon, Allison",10057,1,1,0,5,3,0,52057,0,19,F,Married,US Citizen,No,Black or African American,16.0,5.0,3,0,0,6,1473,36,43.0,8
+174,"Lynch, Lindsay",10004,0,0,0,5,4,1,47434,1,19,F,Single,US Citizen,Yes,Black or African American,39.0,5.0,4,0,0,17,1468,285,42.0,5
+175,"MacLennan, Samuel",10191,0,4,1,5,3,0,52788,1,19,M ,Widowed,US Citizen,No,White,11.0,3.08,4,0,0,18,1828,178,44.0,2
+176,"Mahoney, Lauren  ",10219,0,0,0,5,3,0,45395,0,19,F,Single,US Citizen,No,White,19.0,4.6,4,0,0,14,1879,2,32.0,1
+177,"Manchester, Robyn",10077,1,1,0,5,3,0,62385,0,20,F,Married,US Citizen,No,White,39.0,5.0,3,0,0,4,1023,38,42.0,1
+178,"Mancuso, Karen",10073,1,1,0,5,3,0,68407,1,20,F,Married,US Citizen,No,Two or more races,11.0,5.0,4,0,0,16,411,48,25.0,1
+179,"Mangal, Debbie",10279,1,1,0,5,3,0,61349,0,19,F,Married,US Citizen,No,White,12.0,4.1,3,0,0,11,1935,37,44.0,1
+180,"Martin, Sandra",10110,0,0,0,4,3,0,105688,0,24,F,Single,US Citizen,No,Asian,10.0,4.5,5,4,0,14,1935,45,31.0,3
+181,"Maurice, Shana",10053,1,1,0,5,3,0,54132,0,19,F,Married,US Citizen,No,White,14.0,5.0,4,0,0,8,2830,49,41.0,2
+182,"Carthy, B'rigit",10076,0,0,0,5,3,0,55315,0,20,F,Single,US Citizen,No,Black or African American,19.0,5.0,5,0,0,16,1431,21,31.0,1
+183,"Mckenna, Sandy",10145,1,1,0,5,3,0,62810,0,19,F,Married,US Citizen,No,Black or African American,20.0,3.93,3,0,0,20,2243,29,32.0,7
+184,"McKinzie, Jac",10202,1,1,1,6,3,0,63291,0,3,M ,Married,US Citizen,No,Two or more races,21.0,3.4,4,0,0,7,967,30,34.0,8
+185,"Meads, Elizabeth",10128,0,0,0,5,3,1,62659,1,19,F,Single,US Citizen,No,Black or African American,18.0,4.18,4,0,0,17,1684,280,48.0,5
+186,"Medeiros, Jennifer",10068,0,0,0,5,3,0,55688,0,19,F,Single,US Citizen,No,White,22.0,5.0,4,0,0,10,1431,38,42.0,7
+187,"Miller, Brannon",10116,0,0,1,5,3,0,83667,0,18,M ,Single,US Citizen,yes,Hispanic,2.0,4.37,3,0,0,2,2387,45,37.0,2
+188,"Miller, Ned",10298,0,0,1,5,1,0,55800,1,20,M ,Single,US Citizen,No,White,12.0,3.0,2,0,6,6,1116,598,29.0,1
+189,"Monkfish, Erasumus",10213,1,1,1,5,3,0,58207,0,20,M ,Married,US Citizen,No,White,14.0,3.7,3,0,0,14,2670,51,26.0,1
+190,"Monroe, Peter",10288,1,1,1,3,2,1,157000,0,13,M ,Married,Eligible NonCitizen,Yes,Black or African American,5.0,2.39,3,6,4,13,2570,6,32.0,5
+191,"Monterro, Luisa",10025,0,0,0,5,4,0,72460,0,20,F,Single,US Citizen,No,Black or African American,20.0,4.7,3,0,0,1,2117,45,48.0,2
+192,"Moran, Patrick",10223,0,0,1,5,3,1,72106,0,20,M ,Single,US Citizen,No,Black or African American,18.0,4.1,4,0,0,12,2607,28,42.0,5
+193,"Morway, Tanya",10151,1,1,0,3,3,0,52599,0,15,F,Married,US Citizen,No,White,7.0,3.81,3,6,0,6,1473,17,39.0,7
+194,"Motlagh,  Dawn",10254,0,2,0,5,3,0,63430,0,19,F,Divorced,US Citizen,No,White,16.0,4.4,4,0,0,18,2159,42,34.0,1
+195,"Moumanil, Maliki ",10120,0,3,1,5,3,0,74417,0,20,M ,Separated,US Citizen,No,Black or African American,22.0,4.29,5,0,0,11,2117,31,44.0,1
+196,"Myers, Michael",10216,0,0,1,5,3,0,57575,0,19,M ,Single,US Citizen,No,Asian,20.0,4.1,4,0,0,13,2061,37,38.0,1
+197,"Navathe, Kurt",10079,0,0,1,3,3,0,87921,0,22,M ,Single,US Citizen,No,Asian,13.0,5.0,3,6,0,17,748,3,48.0,2
+198,"Ndzi, Colombui",10215,0,0,1,5,3,1,50470,1,19,M ,Single,US Citizen,No,Black or African American,39.0,4.3,3,0,0,19,921,398,24.0,5
+199,"Ndzi, Horia",10185,1,1,1,5,3,0,46664,1,19,M ,Married,US Citizen,No,White,11.0,3.18,3,0,0,10,1150,80,33.0,4
+200,"Newman, Richard ",10063,1,1,1,5,3,0,48495,0,19,M ,Married,US Citizen,No,White,19.0,5.0,5,0,0,11,1753,10,41.0,1
+201,"Ngodup, Shari ",10037,0,3,0,5,4,1,52984,0,19,F,Separated,US Citizen,No,Black or African American,12.0,4.0,3,0,0,12,2159,15,51.0,5
+202,"Nguyen, Dheepa",10042,0,0,0,6,3,0,63695,0,3,F,Single,US Citizen,No,Two or more races,21.0,5.0,5,0,0,2,2061,34,29.0,2
+203,"Nguyen, Lei-Ming",10206,0,0,0,5,3,0,62061,0,19,F,Single,US Citizen,No,White,14.0,3.6,5,0,0,4,2061,57,34.0,1
+204,"Nowlan, Kristie",10104,0,0,0,5,3,0,66738,0,20,F,Single,US Citizen,No,White,16.0,4.53,5,0,0,5,1571,43,33.0,2
+205,"O'hare, Lynn",10303,0,0,0,5,1,0,52674,1,19,F,Single,US Citizen,No,Two or more races,20.0,2.33,2,0,6,3,1492,53,37.0,1
+206,"Oliver, Brooke ",10078,1,1,0,5,3,0,71966,1,20,F,Married,US Citizen,No,Asian,39.0,5.0,3,0,0,17,462,48,61.0,1
+207,"Onque, Jasmine",10121,0,0,0,6,3,0,63051,0,3,F,Single,US Citizen,Yes,White,21.0,4.28,3,0,0,1,1977,34,28.0,2
+208,"Osturnka, Adeel",10021,1,1,1,5,4,0,47414,0,19,M ,Married,US Citizen,No,White,18.0,5.0,3,0,0,13,1977,21,42.0,1
+209,"Owad, Clinton",10281,0,0,1,5,2,0,53060,0,19,M ,Single,US Citizen,No,Black or African American,22.0,4.25,3,0,4,6,1837,24,39.0,1
+210,"Ozark, Travis",10041,0,0,1,6,3,0,68829,0,3,M ,Single,US Citizen,No,White,17.0,5.0,5,0,0,18,1515,45,36.0,8
+211,"Panjwani, Nina",10148,1,1,0,5,3,0,63515,1,19,F,Married,US Citizen,No,White,16.0,3.89,4,0,0,7,1070,314,34.0,3
+212,"Patronick, Lucas",10005,0,0,1,4,4,1,108987,1,24,M ,Single,US Citizen,No,Black or African American,10.0,5.0,5,3,0,13,1400,22,36.0,5
+213,"Pearson, Randall",10259,1,1,1,3,3,0,93093,1,9,M ,Married,US Citizen,No,White,4.0,4.7,4,5,0,19,517,106,31.0,4
+214,"Smith, Martin",10286,0,0,1,5,2,0,53564,1,19,M ,Single,US Citizen,No,Black or African American,39.0,3.54,5,0,4,15,2544,266,29.0,3
+215,"Pelletier, Ermine",10297,1,1,0,5,2,0,60270,1,20,F,Married,US Citizen,No,Asian,11.0,2.4,5,0,5,2,1533,221,26.0,7
+216,"Perry, Shakira",10171,0,0,0,5,3,0,45998,1,19,F,Single,US Citizen,No,White,11.0,3.45,4,0,0,5,1623,530,29.0,1
+217,"Peters, Lauren",10032,1,1,0,5,4,0,57954,1,20,F,Married,US Citizen,No,White,19.0,4.2,5,0,0,12,630,25,26.0,2
+218,"Peterson, Ebonee  ",10130,1,1,0,5,3,0,74669,1,18,F,Married,US Citizen,No,White,2.0,4.16,5,0,0,6,2032,440,39.0,2
+219,"Petingill, Shana  ",10217,1,1,0,5,3,0,74226,0,20,F,Married,Eligible NonCitizen,No,Asian,12.0,4.3,3,0,0,14,2523,45,39.0,1
+220,"Petrowsky, Thelma",10016,1,1,0,3,4,0,93554,0,9,F,Married,US Citizen,No,Black or African American,4.0,4.6,5,7,0,16,1571,55,34.0,4
+221,"Pham, Hong",10050,1,1,1,5,3,0,64724,1,19,M ,Married,US Citizen,No,Asian,12.0,5.0,3,0,0,13,514,284,24.0,3
+222,"Pitt, Brad ",10164,0,0,1,5,3,0,47001,0,19,M ,Single,US Citizen,No,White,14.0,3.66,3,0,0,15,4133,3,37.0,3
+223,"Potts, Xana",10124,1,1,0,6,3,0,61844,0,3,F,Married,US Citizen,No,Black or African American,21.0,4.2,5,0,0,9,2607,27,30.0,8
+224,"Power, Morissa",10187,0,2,0,5,3,0,46799,1,19,F,Divorced,Eligible NonCitizen,No,Asian,20.0,3.17,4,0,0,14,2576,63,33.0,3
+225,"Punjabhi, Louis  ",10225,0,0,1,5,3,0,59472,0,19,M ,Single,US Citizen,No,White,18.0,4.8,3,0,0,14,1879,52,57.0,4
+226,"Purinton, Janine",10262,0,2,0,5,3,0,46430,1,19,F,Divorced,US Citizen,No,White,20.0,4.5,5,0,0,16,267,77,42.0,2
+228,"Rachael, Maggie",10239,1,1,0,3,3,0,95920,0,4,F,Married,US Citizen,No,Black or African American,13.0,4.4,4,6,0,10,879,22,38.0,2
+229,"Rarrick, Quinn",10152,0,2,1,5,3,0,61729,1,19,M ,Divorced,US Citizen,No,White,22.0,3.8,5,0,0,19,2385,62,33.0,2
+230,"Ren, Kylo",10140,1,1,1,6,3,0,61809,0,3,M ,Married,US Citizen,No,White,17.0,3.98,3,0,0,4,1753,31,64.0,7
+231,"Rhoads, Thomas",10058,0,2,1,5,3,0,45115,1,19,M ,Divorced,US Citizen,Yes,White,16.0,5.0,4,0,0,11,1705,291,33.0,1
+232,"Rivera, Haley  ",10011,1,1,0,5,4,0,46738,0,19,F,Married,US Citizen,No,Asian,39.0,4.36,5,0,0,16,2649,17,46.0,3
+233,"Roberson, May",10230,0,2,0,5,3,0,64971,1,20,F,Divorced,Eligible NonCitizen,No,Black or African American,14.0,4.5,4,0,0,10,26,0,30.0,3
+234,"Robertson, Peter",10224,1,1,1,5,3,0,55578,1,20,M ,Married,US Citizen,No,White,20.0,4.2,5,0,0,13,218,33,39.0,2
+235,"Robinson, Alain  ",10047,1,1,1,5,3,0,50428,1,19,M ,Married,US Citizen,No,Black or African American,11.0,5.0,3,0,0,11,1842,381,42.0,2
+236,"Robinson, Cherly",10285,1,1,0,5,2,0,61422,1,19,F,Married,US Citizen,No,White,19.0,3.6,3,0,4,16,1954,42,31.0,2
+237,"Robinson, Elias",10020,0,4,1,5,4,0,63353,0,19,M ,Widowed,US Citizen,No,White,12.0,3.6,5,0,0,4,2061,17,34.0,4
+238,"Roby, Lori ",10162,1,1,0,3,3,0,89883,0,9,F,Married,US Citizen,No,White,4.0,3.69,5,6,0,15,1473,14,37.0,4
+239,"Roehrich, Bianca",10149,0,0,0,3,3,0,120000,1,29,F,Single,US Citizen,Yes,White,4.0,3.88,3,7,0,12,1405,270,45.0,1
+240,"Roper, Katie",10086,0,0,0,3,3,0,150290,0,7,F,Single,US Citizen,No,Black or African American,13.0,4.94,3,5,0,17,782,22,46.0,2
+241,"Rose, Ashley  ",10054,0,3,0,5,3,0,60627,0,19,F,Separated,US Citizen,No,White,14.0,5.0,4,0,0,8,1879,28,44.0,8
+242,"Rossetti, Bruno",10065,0,0,1,5,3,0,53180,1,19,M ,Single,US Citizen,No,White,20.0,5.0,5,0,0,4,2688,42,31.0,3
+243,"Roup,Simon",10198,0,0,1,3,3,0,140920,0,13,M ,Single,US Citizen,No,White,5.0,3.6,5,7,0,13,2230,10,45.0,2
+244,"Ruiz, Ricardo",10222,0,2,1,3,3,1,148999,1,13,M ,Divorced,US Citizen,No,Black or African American,5.0,4.3,4,6,0,8,1395,304,51.0,5
+245,"Saada, Adell",10126,1,1,0,4,3,0,86214,0,24,F,Married,US Citizen,No,White,10.0,4.2,3,6,0,2,2306,15,32.0,2
+246,"Saar-Beckles, Melinda",10295,0,0,0,5,2,1,47750,0,19,F,Single,US Citizen,No,Black or African American,18.0,2.6,4,0,5,4,969,10,50.0,5
+247,"Sadki, Nore  ",10260,0,0,1,5,3,0,46428,1,19,M ,Single,US Citizen,No,White,22.0,4.6,5,0,0,7,3493,175,43.0,3
+248,"Sahoo, Adil",10233,1,1,1,5,3,0,57975,0,20,M ,Married,US Citizen,No,White,18.0,4.1,3,0,0,13,3104,49,32.0,7
+249,"Salter, Jason",10229,0,2,1,3,3,0,88527,1,9,M ,Divorced,US Citizen,No,Black or African American,4.0,4.2,3,5,0,2,299,194,27.0,1
+250,"Sander, Kamrin",10169,1,1,0,5,3,0,56147,0,19,F,Married,US Citizen,No,Black or African American,16.0,3.51,3,0,0,2,1613,10,30.0,1
+251,"Sewkumar, Nori",10071,0,0,0,5,3,0,50923,0,19,F,Single,US Citizen,No,Asian,39.0,5.0,5,0,0,14,1977,22,43.0,3
+252,"Shepard, Anita ",10179,1,1,0,3,3,0,50750,0,15,F,Married,US Citizen,No,White,7.0,3.31,3,6,0,7,1612,52,37.0,1
+253,"Shields, Seffi",10091,1,1,0,5,3,0,52087,0,19,F,Married,US Citizen,No,White,11.0,4.81,4,0,0,15,2019,13,33.0,1
+254,"Simard, Kramer",10178,1,1,1,3,3,0,87826,0,9,M ,Married,US Citizen,Yes,White,4.0,3.32,3,7,0,16,1515,45,49.0,4
+255,"Singh, Nan ",10039,0,0,0,1,3,0,51920,0,2,F,Single,US Citizen,No,White,1.0,5.0,3,5,0,2,1399,44,30.0,8
+256,"Sloan, Constance",10095,0,0,0,5,3,0,63878,1,20,F,Single,US Citizen,No,White,22.0,4.68,4,0,0,20,1990,6,27.0,7
+257,"Smith, Joe",10027,0,0,1,5,4,0,60656,0,20,M ,Single,US Citizen,No,White,16.0,4.3,3,0,0,4,1613,31,55.0,2
+258,"Smith, John",10291,0,2,1,6,2,1,72992,0,21,M ,Divorced,US Citizen,No,Black or African American,15.0,2.4,4,0,2,16,1747,43,34.0,5
+259,"Smith, Leigh Ann",10153,1,1,0,1,3,1,55000,1,2,F,Married,US Citizen,No,Black or African American,1.0,3.8,4,4,0,17,730,41,26.0,5
+260,"Smith, Sade",10157,0,0,0,5,3,0,58939,0,19,F,Single,US Citizen,No,White,19.0,3.73,3,0,0,16,1935,35,54.0,4
+261,"Soto, Julia ",10119,1,1,0,3,3,0,66593,0,14,F,Married,US Citizen,No,Black or African American,6.0,4.3,3,5,0,19,2820,20,45.0,1
+262,"Soze, Keyser",10180,1,1,1,3,3,0,87565,0,28,M ,Married,US Citizen,No,Asian,7.0,3.27,4,5,0,13,973,45,36.0,1
+263,"Sparks, Taylor  ",10302,1,1,0,5,1,0,64021,0,19,F,Married,US Citizen,No,White,12.0,2.4,2,1,6,20,2565,3,50.0,2
+264,"Spirea, Kelley",10090,1,1,0,5,3,0,65714,0,18,F,Married,US Citizen,No,White,2.0,4.83,5,0,0,15,2340,14,43.0,1
+265,"Squatrito, Kristen",10030,0,2,0,5,4,0,62425,1,19,F,Divorced,US Citizen,No,White,14.0,4.1,4,0,0,16,777,119,42.0,1
+266,"Stanford,Barbara  M",10278,0,2,0,5,3,0,47961,0,19,F,Divorced,US Citizen,No,Two or more races,20.0,4.1,4,0,0,9,2971,21,36.0,3
+267,"Stansfield, Norman",10307,1,1,1,6,1,0,58273,0,3,M ,Married,US Citizen,No,White,21.0,1.81,2,0,3,5,1753,42,44.0,8
+268,"Steans, Tyrone  ",10147,0,0,1,1,3,0,63003,0,1,M ,Single,US Citizen,No,White,1.0,3.9,5,5,0,9,1613,41,32.0,2
+269,"Stoica, Rick",10266,1,1,1,5,3,0,61355,0,19,M ,Married,US Citizen,No,Asian,18.0,4.7,3,0,0,4,1837,48,33.0,1
+270,"Strong, Caitrin",10241,1,1,0,6,3,0,60120,0,3,F,Married,US Citizen,No,Black or African American,17.0,4.1,4,0,0,18,3076,28,29.0,2
+271,"Sullivan, Kissy ",10158,1,1,0,5,3,0,63682,0,18,F,Married,US Citizen,No,Black or African American,2.0,3.73,4,0,0,12,3703,35,40.0,2
+272,"Sullivan, Timothy",10117,1,1,1,5,3,0,63025,0,19,M ,Married,US Citizen,Yes,White,22.0,4.36,5,0,0,10,1515,35,36.0,3
+273,"Sutwell, Barbara",10209,0,0,0,5,3,0,59238,0,19,F,Single,Eligible NonCitizen,No,Asian,16.0,3.4,5,0,0,13,2481,28,50.0,2
+274,"Szabo, Andrew",10024,0,0,1,4,4,0,92989,0,24,M ,Single,US Citizen,No,White,10.0,4.5,5,5,0,1,1697,10,35.0,1
+275,"Tannen, Biff",10173,1,1,1,3,3,0,90100,0,4,M ,Married,US Citizen,No,White,13.0,3.4,3,6,0,14,679,57,31.0,2
+276,"Tavares, Desiree  ",10221,1,1,0,5,3,1,60754,1,19,F,Married,Non-Citizen,No,Black or African American,39.0,4.5,5,0,0,11,1435,411,37.0,5
+277,"Tejeda, Lenora ",10146,1,1,0,5,3,0,72202,1,20,F,Married,US Citizen,No,White,16.0,3.93,3,0,0,3,2245,81,64.0,3
+278,"Terry, Sharlene ",10161,0,0,0,6,3,0,58370,0,3,F,Single,US Citizen,No,Black or African American,21.0,3.69,3,0,0,18,1613,31,53.0,2
+279,"Theamstern, Sophia",10141,0,0,0,5,3,0,48413,1,19,F,Single,US Citizen,No,White,11.0,3.98,4,0,0,1,1889,187,51.0,2
+280,"Thibaud, Kenneth",10268,0,4,1,5,3,0,67176,1,20,M ,Widowed,US Citizen,No,White,39.0,4.1,4,0,0,15,1162,47,34.0,9
+281,"Tippett, Jeanette",10123,0,2,0,5,3,0,56339,0,19,F,Divorced,US Citizen,No,Black or African American,12.0,4.21,5,0,0,4,2201,45,51.0,2
+282,"Torrence, Jack",10013,0,3,1,6,4,0,64397,0,3,M ,Separated,US Citizen,No,White,21.0,4.1,3,0,0,6,4798,55,51.0,2
+283,"Trang, Mei",10287,0,0,0,5,2,0,63025,0,19,F,Single,US Citizen,No,White,14.0,2.44,5,0,4,18,1837,17,35.0,1
+284,"Tredinnick, Neville ",10044,1,1,1,3,3,0,75281,1,15,M ,Married,US Citizen,No,White,7.0,5.0,3,5,0,11,403,303,27.0,7
+285,"True, Edward",10102,0,0,1,4,3,1,100416,1,24,M ,Single,Non-Citizen,No,Black or African American,10.0,4.6,3,4,0,9,1882,427,34.0,5
+286,"Trzeciak, Cybil",10270,0,0,0,5,3,0,74813,1,20,F,Single,US Citizen,No,White,11.0,4.4,3,0,0,5,1269,178,29.0,1
+287,"Turpin, Jumil",10045,1,1,1,3,3,0,76029,0,15,M ,Married,Eligible NonCitizen,No,White,7.0,5.0,4,7,0,8,1431,45,49.0,4
+288,"Valentin,Jackie",10205,1,1,0,6,3,0,57859,0,3,F,Married,US Citizen,No,Two or more races,17.0,2.81,3,0,0,16,2795,42,27.0,2
+289,"Veera, Abdellah ",10014,0,2,1,5,4,0,58523,1,19,M ,Divorced,US Citizen,No,White,20.0,4.5,5,0,0,15,1271,4,29.0,1
+290,"Vega, Vincent",10144,0,2,1,5,3,0,88976,0,17,M ,Divorced,US Citizen,No,White,2.0,3.93,3,0,0,19,2768,1,50.0,4
+291,"Villanueva, Noah",10253,0,0,1,6,3,0,55875,0,3,M ,Single,US Citizen,No,Asian,17.0,4.5,4,0,0,11,2551,41,29.0,8
+292,"Voldemort, Lord",10118,1,1,1,3,3,0,113999,1,8,M ,Married,US Citizen,No,Black or African American,4.0,4.33,3,7,0,9,737,7,30.0,4
+293,"Volk, Colleen",10022,1,1,0,5,4,0,49773,1,19,F,Married,US Citizen,No,White,18.0,4.3,5,0,0,18,1596,372,29.0,3
+294,"Von Massenbach, Anna",10183,0,0,0,5,3,0,62068,0,19,F,Single,US Citizen,No,White,22.0,3.21,3,0,0,7,1334,30,33.0,1
+295,"Walker, Roger",10190,0,0,1,5,3,0,66541,0,20,M ,Single,US Citizen,No,Black or African American,19.0,3.11,5,0,0,4,1655,16,43.0,4
+296,"Wallace, Courtney  E",10274,1,1,0,5,3,1,80512,1,18,F,Married,US Citizen,No,Black or African American,2.0,4.5,3,0,0,5,98,0,56.0,5
+297,"Wallace, Theresa",10293,0,0,0,5,2,0,50274,1,19,F,Single,US Citizen,No,White,16.0,2.5,3,0,6,13,1114,361,35.0,7
+298,"Wang, Charlie",10172,0,0,1,3,3,0,84903,0,22,M ,Single,US Citizen,No,Asian,13.0,3.42,4,7,0,17,743,55,37.0,2
+299,"Warfield, Sarah",10127,0,4,0,3,3,0,107226,0,28,F,Widowed,US Citizen,No,Asian,7.0,4.2,4,8,0,7,1431,23,40.0,4
+300,"Whittier, Scott",10072,0,0,1,5,3,0,58371,1,19,M ,Single,US Citizen,Yes,White,39.0,5.0,5,0,0,11,1221,0,26.0,1
+301,"Wilber, Barry",10048,1,1,1,5,3,0,55140,1,19,M ,Married,Eligible NonCitizen,No,White,11.0,5.0,3,0,0,7,1575,204,49.0,8
+302,"Wilkes, Annie",10204,0,2,0,5,3,0,58062,1,19,F,Divorced,US Citizen,No,White,19.0,3.6,5,0,0,9,490,463,28.0,3
+303,"Williams, Jacquelyn  ",10264,0,0,0,5,3,1,59728,1,19,F,Single,US Citizen,Yes,Black or African American,19.0,4.3,4,0,0,16,1265,390,45.0,5
+304,"Winthrop, Jordan  ",10033,0,0,1,5,4,0,70507,1,20,M ,Single,US Citizen,No,White,12.0,5.0,3,0,0,7,1140,33,57.0,1
+305,"Wolk, Hang  T",10174,0,0,0,5,3,0,60446,0,20,F,Single,US Citizen,No,White,14.0,3.4,4,0,0,14,1613,7,33.0,1
+306,"Woodson, Jason",10135,0,0,1,5,3,0,65893,0,20,M ,Single,US Citizen,No,White,20.0,4.07,4,0,0,13,1697,0,33.0,1
+307,"Ybarra, Catherine ",10301,0,0,0,5,1,0,48513,1,19,F,Single,US Citizen,No,Asian,12.0,3.2,2,0,5,4,2583,27,33.0,3
+308,"Zamora, Jennifer",10010,0,0,0,3,4,0,220450,0,6,F,Single,US Citizen,No,White,2.0,4.6,5,6,0,16,3246,7,39.0,4
+309,"Zhou, Julia",10043,0,0,0,3,3,0,89292,0,9,F,Single,US Citizen,No,White,4.0,5.0,3,5,0,11,1431,27,40.0,4
+310,"Zima, Colleen",10271,0,4,0,5,3,0,45046,0,19,F,Widowed,US Citizen,No,Asian,14.0,4.5,5,0,0,2,1613,29,40.0,1
